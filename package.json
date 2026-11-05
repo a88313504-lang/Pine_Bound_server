@@ -1,0 +1,15 @@
+{
+  "name": "pinebound-sandbox",
+  "version": "0.9.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs --public",
+    "test": "node --test",
+    "prestart": "node restore-data.mjs",
+    "pretest": "node restore-data.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

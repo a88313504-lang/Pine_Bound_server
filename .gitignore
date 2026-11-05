@@ -1,0 +1,7 @@
+.env
+node_modules/
+public/
+test/
+game-data.tar
+split-data.mjs
+*.log

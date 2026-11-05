@@ -1,0 +1,10 @@
+Export validation - 2026-11-04
+Node v24.22.1. No external server npm dependencies.
+
+Copied the complete 0.9.1 project, optimized public assets, vendored browser libraries and all regression tests. Backend simulation source is unchanged. Dockerfile corrected to include rail-service.mjs; deployment examples and dependency lockfile added.
+
+All 73 relative non-vendor JS module imports resolved. Docker COPY inputs verified. Full test run with local network access: 46 of 47 passed, including compressed models, texture aliases, authenticated two-client snapshots, polling and existing-room joining. The passenger delivery test failed in that full run and passed when rerun alone (see EXPORT-TRAIN-RECHECK.txt). This test does not refresh the player's wall-clock lastSeen during 250 simulated ticks, while production expires idle players after 15 real seconds, making it sensitive to test-machine load. No production timeout was weakened to make tests pass.
+
+An earlier restricted run could not connect to localhost (EACCES); network checks passed when rerun with local networking enabled. Full output is in EXPORT-TEST-RESULTS.txt.
+
+No Docker executable was available, so Docker build, Compose/proxy operation, public hosting deployment, load capacity and native launcher UI were not verified in this task. No hosting purchased or deployed. Launcher feed unchanged.

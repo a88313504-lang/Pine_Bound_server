@@ -1,0 +1,87 @@
+{
+  "format": "tar",
+  "version": "0.9.1",
+  "bytes": 324993024,
+  "parts": [
+    {
+      "file": "game-data.tar.part001",
+      "bytes": 20971520,
+      "sha256": "8ce6a6236aa1ecbce0ab295ddf46367fb79b9563082974d0d0dc3c93122b1606"
+    },
+    {
+      "file": "game-data.tar.part002",
+      "bytes": 20971520,
+      "sha256": "0cd525537ae709bf811ac80bb1c028744a652eaab1c2912443a921fdc3edfc7d"
+    },
+    {
+      "file": "game-data.tar.part003",
+      "bytes": 20971520,
+      "sha256": "e1f7b4326893e32bfa8c992291f10d934ab44f163e8d0f6c7d2d9f110a0d5e5a"
+    },
+    {
+      "file": "game-data.tar.part004",
+      "bytes": 20971520,
+      "sha256": "957d96d04d891e5192e63554a42fcd03a48db113c651f596a127bfea35818098"
+    },
+    {
+      "file": "game-data.tar.part005",
+      "bytes": 20971520,
+      "sha256": "ac0d45064f7d685cf27c4f9ed45ecefe0c65820f375ef5007f49b4777297a7ba"
+    },
+    {
+      "file": "game-data.tar.part006",
+      "bytes": 20971520,
+      "sha256": "b879fdd289526185381144d87a2df9ef5f02769a516404cb8bb808e4dd24768e"
+    },
+    {
+      "file": "game-data.tar.part007",
+      "bytes": 20971520,
+      "sha256": "ef7f1d7a3fb394c860e20456046d2a7a199d5e21e273b1f91ac7f7fcc7dc3b66"
+    },
+    {
+      "file": "game-data.tar.part008",
+      "bytes": 20971520,
+      "sha256": "0ac9aaa5d3b7020053cfcbf6dcbdda28c176ca01f29ae5c6ed0236791a70f5f4"
+    },
+    {
+      "file": "game-data.tar.part009",
+      "bytes": 20971520,
+      "sha256": "f9e54b799be4eecaf2a03bbfad6783064ad2f18f3bfd8ff4be1439608db39452"
+    },
+    {
+      "file": "game-data.tar.part010",
+      "bytes": 20971520,
+      "sha256": "fa03a87938c80a820184dc5f2b29068d11410ffdb7fdc7731a8214349ce75bc3"
+    },
+    {
+      "file": "game-data.tar.part011",
+      "bytes": 20971520,
+      "sha256": "60f98a50c8ed543efd37ece1fd6c8108ca489992bc026fdf7c7ecd3148785b56"
+    },
+    {
+      "file": "game-data.tar.part012",
+      "bytes": 20971520,
+      "sha256": "b251fed00d1b41352bbf9c489be64576109baa651177751a63a44deed06246f9"
+    },
+    {
+      "file": "game-data.tar.part013",
+      "bytes": 20971520,
+      "sha256": "b1890783bf33d64b0f3cdc69edeca0e9a03f2b346f6da51fac7daa3e0ade2df9"
+    },
+    {
+      "file": "game-data.tar.part014",
+      "bytes": 20971520,
+      "sha256": "c4ef0732bed69aeacb2abb2ae3c04f0f1df0fefb484942d42471482dba4db6a0"
+    },
+    {
+      "file": "game-data.tar.part015",
+      "bytes": 20971520,
+      "sha256": "fb2f815d803cc54a06b7d6fceaa054540cb5981c0ba88999942654d60703f98d"
+    },
+    {
+      "file": "game-data.tar.part016",
+      "bytes": 10420224,
+      "sha256": "f840c851480801c3a4c06d3e6d0b5ed805439befdf4c272db9adc317fe45a76b"
+    }
+  ]
+}

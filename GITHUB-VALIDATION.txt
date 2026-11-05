@@ -1,0 +1,6 @@
+GitHub upload preparation checks: 2026-11-04
+- All 16 archive parts verified against SHA-256 and restored successfully.
+- Server, simulation and rail-service source unchanged from export 0.9.1.
+- Six HTTP multiplayer, same-room joining, polling, compressed-model and texture-alias checks passed from restored data.
+- Dockerfile is configured to restore data during build. Docker build and public deployment not performed.
+- Large assets/tests are archived into split TAR parts only to support the GitHub browser uploader. No game assets removed.

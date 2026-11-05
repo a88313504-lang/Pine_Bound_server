@@ -1,0 +1,4 @@
+# Replace this hostname; run Caddy on the host machine, with ports 80/443 reachable.
+pinebound.example.com {
+    reverse_proxy 127.0.0.1:3000
+}
